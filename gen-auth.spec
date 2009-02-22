@@ -12,6 +12,7 @@ Source0:	%{name}.pl
 URL:		http://jetmore.org/john/code/#gen-auth
 BuildRequires:	perl-tools-pod
 BuildRequires:	rpm-perlprov
+Suggests:	perl-perldoc
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
