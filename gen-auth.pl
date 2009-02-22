@@ -338,6 +338,8 @@ This performs an atbash action on <string>.  Atbash mirrors a string such that '
 
 =head1 OPTIONS
 
+=over 4
+
 =item -s
 
 Supresses echo on all input fields read from standard input.  If this option is not used, echo is suppressed on fields which are known to be password fields but this may not be secure enough.
@@ -349,6 +351,8 @@ this screen.
 =item --version
 
 version info.
+
+=back
 
 =head1 EXAMPLES
 
@@ -396,6 +400,8 @@ example
 
 =head1 REQUIRES
 
+=over 4
+
 =item MIME::Base64
 
 Required for all functionality
@@ -412,12 +418,20 @@ Required for CRAM-SHA1
 
 Required for NTLM/MSN/SPA
 
+=back
+
 =head1 EXIT CODES
+
+=over 4
 
 =item 0 - no errors occurred
 
 =item 1 - unrecognized type specified
 
+=back
+
 =head1 CONTACT
+
+=over 4
 
 =item proj-gen-auth@jetmore.net
