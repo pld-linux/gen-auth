@@ -1,5 +1,4 @@
 #
-%include        /usr/lib/rpm/macros.perl
 Summary:	SMTP authentication tool
 Summary(pl.UTF-8):	Narzędzie do uwierzytelniania SMTP
 Name:		gen-auth
